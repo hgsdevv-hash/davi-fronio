@@ -513,7 +513,7 @@ $$('#intro path').forEach(p=>p.style.setProperty('--len',p.getTotalLength()+1));
 let done=false;
 const end=()=>{if(done)return;done=true;intro.classList.add('out');setTimeout(()=>document.body.classList.remove('locked'),450);setTimeout(()=>intro.remove(),950);startHero()};
 if(reduce){intro.remove();document.body.classList.remove('locked');setTimeout(startHero,100)}
-else{requestAnimationFrame(()=>intro.classList.add('play'));setTimeout(end,2900);$('#intro .skip').onclick=end}
+else{void intro.offsetWidth;intro.classList.add('play');setTimeout(end,2900);$('#intro .skip').onclick=end}
 
 /* hero */
 function startHero(){
