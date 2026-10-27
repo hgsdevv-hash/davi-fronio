@@ -2,4 +2,6 @@
 
 Site do consultor de vendas Davi Fronio (imóveis e veículos).
 
-Pendências: WhatsApp, cidade, foto, depoimentos. Contato hoje só pelo Direct do Instagram.
+WhatsApp: (19) 98140-2506. Foto tirada do post do Instagram.
+
+Pendências: cidade, mais fotos, depoimentos.
